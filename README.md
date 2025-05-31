@@ -8,6 +8,7 @@ It enables management of master orders as well as the individual user orders tha
 Additionally, this project serves as a demonstration of my programming skills for potential employers.
 
 ## Project Structure
+```
 tiffanyvoorhees_ohs/
 ├── frontend/ # React app (created with Create React App)
 ├── main/ # Django app
@@ -18,6 +19,7 @@ tiffanyvoorhees_ohs/
 ├── copy_react_build.py # Script to move React build into Django
 ├── manage.py # Django CLI entry point
 ├── README.md
+```
 
 ## How to Run the Project Locally
 
