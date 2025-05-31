@@ -2,8 +2,10 @@
 
 ## Overview
 
-The **Tiffany Voorhees OHS** project is designed to be a place for Rowley family and friends to track orders for Optimal Health System products. 
-This project aims to allow a place for the Rowley family to track master orders and the user orders that make up the master order.
+The **Tiffany Voorhees OHS** project provides a platform for the Rowley family and friends to track orders for Optimal Health System products.
+It enables management of master orders as well as the individual user orders that compose them.
+
+Additionally, this project serves as a demonstration of my programming skills for potential employers.
 
 ## Project Structure
 tiffanyvoorhees_ohs/
