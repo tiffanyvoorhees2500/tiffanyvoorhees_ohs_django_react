@@ -7,6 +7,17 @@ It enables management of master orders as well as the individual user orders tha
 
 Additionally, this project serves as a demonstration of my programming skills for potential employers.
 
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, JavaScript, HTML/CSS
+- **Backend:** Django, Python
+- **Other Tools:** Git, GitHub, VS Code
+- **Optional Features:** Google Login integration (in progress)
+
+---
+
 ## Project Structure
 ```
 tiffanyvoorhees_ohs/
@@ -38,27 +49,33 @@ tiffanyvoorhees_ohs/
    cd tiffanyvoorhees_ohs
    ```
 
-## Backend (Django)
-
-# Set up virtual environment
+### Backend (Django)
+1. Set up virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
-
-# Install dependencies
+```
+2. Install dependencies
+```bash
 pip install -r requirements.txt  # if you have one
 # or manually install as needed:
 pip install django
-
-# Run migrations
+```
+3. Run migrations
+```bash
 python manage.py migrate
-
-# Start the server
+```
+4. Start the server
+```bash
 python manage.py runserver
+```
 
-## Frontend (React)
+### Frontend (React)
+```bash
 cd frontend
 npm install
 npm start
+```
 
 
 ## License
