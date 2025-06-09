@@ -14,7 +14,6 @@ Additionally, this project serves as a demonstration of my programming skills fo
 - **Frontend:** React, JavaScript, HTML/CSS
 - **Backend:** Django, Python
 - **Other Tools:** Git, GitHub, VS Code
-- **Optional Features:** Google Login integration (in progress)
 
 ---
 
@@ -57,9 +56,7 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 ```
 2. Install dependencies
 ```bash
-pip install -r requirements.txt  # if you have one
-# or manually install as needed:
-pip install django
+pip install -r requirements.txt
 ```
 3. Run migrations
 ```bash
@@ -73,8 +70,7 @@ python manage.py runserver
 ### Frontend (React)
 ```bash
 cd frontend
-npm install
-npm start
+npm run build-and-copy #use collectstatic in production
 ```
 
 

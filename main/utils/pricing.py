@@ -38,4 +38,5 @@ def calculate_base_price(user, product):
         return product.retail
     else:
         return 0
+    
 
